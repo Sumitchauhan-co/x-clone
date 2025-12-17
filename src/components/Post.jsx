@@ -13,7 +13,7 @@ const Post = () => {
       fetch(`https://dummy-json.mock.beeceptor.com/posts`).then((res) =>
         res.json()
       ),
-      fetch(`https://mpb1e7ab6b03a3d04b5b.free.beeceptor.com/data`).then(
+      fetch(`https://mp18c585b2f607c9c39b.free.beeceptor.com/data`).then(
         (res) => res.json()
       ),
     ])

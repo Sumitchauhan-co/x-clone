@@ -15,7 +15,9 @@ export default function HeadlineNews() {
   };
 
   useEffect(() => {
-    const url = `https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=in&max=${limit}&apikey=03873c3ec6579df98746bf9a5e81eb87`;
+    const url = `https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=in&max=${limit}&apikey=03873c3ec6579df98746bf9a5e81eb87`; 
+
+    // https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=in&max=${limit}&apikey=03873c3ec6579df98746bf9a5e81eb87
 
     fetch(url)
       .then((res) => {
